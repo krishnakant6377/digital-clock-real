@@ -32,28 +32,28 @@ function timeUpdate(){
       content1.innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP";
       content2.innerHTML="LET'S HAVE SOME LUNCH !!";
       img.removeAttribute('src');
-      img.setAttribute('src','./noon.jpg');
+      img.setAttribute('src','./two.jpg');
       // image[0].replace(img);
    }
    else if(options3[0]==hours && options3[1]==session.innerText){
       content1.innerHTML=`GOOD EVENING !!`;
       content2.innerHTML=`STOP YAWNING,GET SOME TEA..<br> ITS JUST EVENING!`;
       img.removeAttribute('src');
-      img.setAttribute('src','./nap.jpg');
+      img.setAttribute('src','./three.jpg');
       // image[0].replace(img);
    }
    else if(options4[0]==hours && options4[1]==session.innerText){
       content1.innerHTML="GOOD NIGHT !!";
       content2.innerHTML="CLOSE YOUR EYES AND GO TO SLEEP";
       img.removeAttribute('src');
-      img.setAttribute('src','./night.jpg');
+      img.setAttribute('src','./four.jpg');
       // image[0].replace(img);
    }
    else{
       content1.innerHTML=`GOOD MORNING!! WAKE UP !!`;
       content2.innerHTML="GRAB SOME HEALTHY BREAKFAST!!!";
       img.removeAttribute('src');
-      img.setAttribute('src','./wake.jpg');
+      img.setAttribute('src','./one.jpg');
       // image[0].replace(img);
    }
 }
